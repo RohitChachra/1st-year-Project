@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback Form</title>
+    <style>
+        *{
+            padding: 0;margin: 0;
+        }
+        body{
+          /* background-image: url(bii.png.png); */
+          width: 100vw;
+          height: 100vh;
+         background-image: url(123.png);
+        }
+        h1{
+            text-align: center;
+            font-weight:900;
+        }
+        hr{
+            /* align-items: center;
+            justify-content: center; */
+            position: relative;
+            left: 15.5vw;
+            align-items: center;
+          color: green;
+            width: 70vw;
+        }
+        p{
+            text-align: center;
+            font-weight: bold;
+        }
+        .one_line{
+            display: flex;
+     padding: 0px;
+     justify-content: space-between;
+     width: 38vw;
+     font-size: 16px;
+        }
+        .two_line{
+            display: flex;
+            justify-content: space-between;
+     width: 38vw;
+     font-size: 16px;
+        }
+        .whole{
+            position: relative;
+         position: relative;
+         left: 30vw;
+
+        }
+        #one{
+            margin-right: 03px;
+        }
+       #two{
+        margin-right: 03px;
+        margin-left: 31px;
+       }
+       #third{
+        margin-right: 03px;
+        margin-left: 31px;
+       }
+       .Submit{
+        width: 38vw;
+         padding: 5px;
+          font-size: 14px;
+           background-color: rgba(31, 111, 223, 0.735);
+            font-weight: bold;
+             color: white;
+         cursor: pointer;
+       }
+      
+       :hover.Submit{
+        background-color:rgb(16, 150, 245);
+       }
+    </style>
+</head>
+<body>
+    <br><br>
+
+    <h1> <b>Feedback</b></h1>
+    <br>
+    <hr>
+    <br>
+    <p>please write your feedback below:</p>
+    <br><br>
+   <div class="whole">
+    <h2>How do you rate your overall experince?</h2>
+    <br>
+    
+    <form action="">
+        <label for="">
+            <input type="radio" name="performace"  id="one" class="tod">Bad
+        </label>
+        <label for="">
+            <input type="radio" name="performace"  id="two" class="tod" >Average
+        </label>
+        <label for="">
+            <input type="radio" name="performace" class="tod"  id="third" >Good
+        </label>
+    </form>
+    <br>
+<div class="one_line">
+    <pre>
+Full Name
+<input type="text">
+</pre>
+<pre>
+    Email
+    <input type="email"></pre>
+</div>
+<br>
+<div class="two_line">
+ <pre>
+Age
+<input type="text">
+    </pre>
+    <pre>
+    Phone number
+    <input type="number"></pre>
+</div>
+<br>
+<pre>
+    <label for="">
+<textarea name="message" id="msg" cols="70" rows="10" placeholder = "how can we improve ?"></textarea></label></pre>
+<br>
+<button class="Submit" onclick="window.location.href='MainWeb.html'" >Submit </button>
+</div>
+
+</body>
+</html>

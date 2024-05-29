@@ -1,0 +1,265 @@
+body
+{
+    background-color: rgb(38, 11, 69);
+    margin          : 0;
+    padding         : 0;
+}
+
+a
+{
+    text-decoration : none;
+    padding-right   : 20px;
+    font-size       : x-large;
+    color: #fff;
+}
+
+a:hover
+{
+    color: rgb(11, 2, 69);
+    text-decoration: underline;
+}
+
+.navdiv
+{
+    width       : fit-content;
+    position    : relative;
+    padding     : 10px 0 10px;
+    left        : 100px;
+}
+
+.navdiv2table
+{
+    position    : relative;
+    left        : 700px;
+    bottom      : 20px;
+}
+
+nav
+{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgb(7, 7, 7) 20%, rgba(9,28,121,1) 40%, rgba(0,212,255,1) 100%);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Gasoek+One&family=Merriweather&family=Montserrat&family=Sacramento&family=Sofia&display=swap');
+
+.heading
+{
+    margin: 0;
+    position: relative;
+    top: 10px;
+    color: #fff;
+    font-family: 'Gasoek One', sans-serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: 2.7rem;
+}
+
+.home
+{
+    position: relative;
+    height : 81.5vh;
+    width: 100%;
+}
+
+.home-image
+{
+    opacity: 1;
+    display: block;
+    width: 98.9vw;
+    height:auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.overlay
+{
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50vw ;
+    transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+.home:hover .home-image
+{
+    opacity: 0.5;
+}
+
+.home:hover .overlay
+{
+    opacity: 1;
+}
+
+.text
+{
+    background-color: transparent;
+    text-shadow: blue;
+    color: rgb(250, 250, 250);
+    font-family: 'Gasoek One', sans-serif;
+    font-weight: bolder;
+    font-size : 40px;
+    padding : 16px 32px;
+}
+
+.span1
+{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgb(54, 16, 92) 10%, rgba(9,28,121,1) 32%, rgba(0,212,255,1) 100%);
+    letter-spacing: 1px;
+    display:block;
+}
+
+hr
+{
+    border-style: dotted;
+    border-width: 8px 0 0 ;
+    border-color: rgb(126, 103, 147);
+    opacity: 0.8;
+    margin-top: 70px ;
+    margin-bottom: 70px ;
+    width: 10%;
+}
+
+#Games,.Gallery,.Reviews,.footer
+{
+    text-align: center;
+    color: #fff;
+    letter-spacing: 1px;
+    width: 98.9;
+}
+
+.game-table
+{
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+.left-game-table
+{
+    position: relative;
+    left: 20px;
+}
+
+.btn 
+{
+    background: #4c2f99;
+    background-image: -webkit-linear-gradient(top, #4c2f99, #5abdfa);
+    background-image: -moz-linear-gradient(top, #4c2f99, #5abdfa);
+    background-image: -ms-linear-gradient(top, #4c2f99, #5abdfa);
+    background-image: -o-linear-gradient(top, #4c2f99, #5abdfa);
+    background-image: linear-gradient(to bottom, #4c2f99, #5abdfa);
+    -webkit-border-radius: 20;
+    -moz-border-radius: 20;
+    border-radius: 20px;
+    font-family: Courier New;
+    color: #ffffff;
+    font-size: 30px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+.btn:hover 
+{
+    background: #3e4c96;
+    background-image: -webkit-linear-gradient(top, #3e4c96, #00ffea);
+    background-image: -moz-linear-gradient(top, #3e4c96, #00ffea);
+    background-image: -ms-linear-gradient(top, #3e4c96, #00ffea);
+    background-image: -o-linear-gradient(top, #3e4c96, #00ffea);
+    background-image: linear-gradient(to bottom, #3e4c96, #00ffea);
+    text-decoration: none;
+}
+
+.game-images
+{
+    opacity: 1.0;
+}
+
+.game-images:hover
+{
+    opacity: 0.7;
+}
+
+.Reviews
+{
+    text-align: center;
+}
+
+.Review-table
+{
+    width: 1200px;
+    text-align: center;
+    box-sizing:content-box;
+    position: relative;
+    left: 70px;
+    bottom: 50px;
+    border-spacing: 50px;
+}
+
+.review-cells
+{
+    background-color: rgb(89, 61, 115); 
+    height: 100px;
+    width: 400px;
+    position: relative;
+    bottom: 20px;
+}
+.review-para
+{
+    position: relative;
+    top: 15px;
+}
+
+.span2
+{
+    background-color: #422d7c;
+    display: block;
+}
+
+.footer
+{
+    width: 1350px;
+    height: 250px;
+    background-color: rgb(26, 6, 49);
+}
+
+.youtube
+{
+    width: 50px;
+}
+.facebook
+{
+    width: 40px;
+}
+.twitter
+{
+    width: 40px;
+}
+.insta
+{
+    width: 60px;
+}
+.last-h3
+{
+    margin-top: 50px;
+    padding-top: 25px;
+}
+.reviewers
+{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    position: relative;
+    top: 20px;
+}
+p
+{
+    font-size: 1rem;
+}
+
+#last-a:hover
+{
+    color: white;
+}
